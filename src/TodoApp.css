@@ -1,0 +1,187 @@
+#root, html {
+  background-color: #ebdada;
+}
+
+button:disabled {
+  cursor: default !important;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #d7c6cf;
+  overflow: hidden;
+}
+
+.input-box {
+  margin: auto;
+}
+
+.form-control {
+  text-align: center;
+}
+
+.task-text {
+  width: 100%;
+  word-wrap: break-word;
+  transition: all 0.2s ease-in-out;
+  margin: 0 !important;
+}
+
+.complete {
+  color: lightslategray;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.right-item-buttons {
+  display: flex;
+  height: 10%;
+  width: 10%;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 2%;
+}
+
+.complete-button {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.complete-button-container {
+  margin-left: 3%;
+  width: 15%;
+}
+
+.filters {
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.filter {
+  width: 32%;
+}
+
+.filter:hover, .edit-button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-align: center;
+  font-size: 100%;
+}
+
+.edit-buttons {
+  margin: auto;
+  margin-top: 2%;
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-header-button {
+  font-size: 112% !important;
+}
+
+.global-buttons {
+  margin: auto;
+  margin-top: 2%;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.credit-container {
+  margin: auto;
+}
+
+h5 {
+  text-align: center;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.App {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 60px;
+  border: 2px solid palevioletred;
+  padding: 1%;
+  width: 100%;
+  max-width: 60em;
+}
+
+.incomplete-counter {
+  margin-block-end: 0px;
+  padding-bottom: 3.79px;
+}
+
+.edit-button {
+  margin-left: 20px;
+  margin-top: 35px;
+  vertical-align: bottom;
+}
+
+.active {
+  cursor: pointer;
+}
+
+.footer-line2 p, .edit-button {
+  display: inline-block;
+}
+
+.footer-line2 {
+  text-align: center;
+}
+
+.nav__link.edit-on {
+  cursor: pointer !important;
+}
+
+.period {
+  color: #42748d;
+}
+
+.description-period {
+  font-size: 25px;
+}
+
+.credit-period {
+  font-size: 30px;
+}
+
+.edit-container {
+  width: 5%;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+.item-text-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.edit-checkbox {
+  margin: 0 !important;
+  width: 18px !important;
+  width: 1.5rem !important;
+  height: 18px !important;
+  height: 1.5rem !important;
+}
